@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "handel";
+  src: url(../../fonts/Handel_Gothic_TL.ttf);
+}
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 42px 78px;
+  position: absolute;
+  left: 457px;
+  top: 124px;
+  width: 453px;
+  height: 413px;
+  background: rgba(63, 99, 142, 0.38);
+  /* background-blend-mode: overlay; */
+  backdrop-filter: blur(70px);
+}
+.line1,
+.line11 {
+  position: absolute;
+  width: 46px;
+  height: 0px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(63, 99, 142, 0.38);
+  background-blend-mode: overlay;
+  border: 1px solid #ffffff;
+}
+.line11 {
+  position: absolute;
+  width: 16px;
+  height: 0px;
+  left: -10px;
+  transform: rotate(-90deg);
+}
+.line2,
+.line21 {
+  position: absolute;
+  width: 46px;
+  height: 0px;
+  left: 561px;
+  top: 0px;
+  background: rgba(63, 99, 142, 0.38);
+  background-blend-mode: overlay;
+  border: 1px solid #ffffff;
+}
+.line21 {
+  width: 16px;
+  height: 0px;
+  left: 39px;
+  transform: rotate(90deg);
+}
+.line3,
+.line31 {
+  position: absolute;
+  width: 46px;
+  height: 0px;
+  left: 0px;
+  top: 494px;
+  background: rgba(63, 99, 142, 0.38);
+  background-blend-mode: overlay;
+  border: 1px solid #ffffff;
+}
+.line31 {
+  width: 16px;
+  left: -10px;
+  top: 0px;
+  transform: rotate(-90deg);
+}
+.line4,
+.line41 {
+  position: absolute;
+  width: 46px;
+  height: 0px;
+  left: 560px;
+  top: 494px;
+
+  background: rgba(63, 99, 142, 0.38);
+  background-blend-mode: overlay;
+  border: 1px solid #ffffff;
+}
+.line41 {
+  width: 16px;
+  left: 39px;
+  top: 0px;
+  transform: rotate(-90deg);
+}
+.form-title {
+  margin-top: 40px;
+  color: white;
+  display: flex;
+}
+.form-title-vxod {
+  font-family: HandelGothic TL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  font-family: handel;
+  text-transform: capitalize;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.form-title-register {
+  font-family: handel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.06em;
+
+  color: rgba(252, 249, 253, 0.49);
+
+  mix-blend-mode: normal;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.form-input {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.form-input input {
+  padding: 15px 30px;
+  width: 362px;
+  height: 26px;
+}
+.form-input input[value] {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+}

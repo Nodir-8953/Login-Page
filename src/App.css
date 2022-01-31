@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 82.67%, rgba(0, 0, 0, 0.2) 100%),
+    url("./img/Background.png");
+  mix-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

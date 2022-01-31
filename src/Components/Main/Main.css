@@ -1,0 +1,18 @@
+.title-form {
+  margin-top: 25px;
+  text-align: center;
+}
+.title,
+.subtitle {
+  color: white;
+  font-size: 43px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.subtitle {
+  position: absolute;
+  left: 807px;
+  top: 69px;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
