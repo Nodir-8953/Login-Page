@@ -6,8 +6,7 @@ function Main() {
   return (
     <div className="Main">
       <div className="title-form">
-        <div className="title">aerospace</div>
-        <div className="subtitle">agro</div>
+        <img src={require('../../img/Logo.png')} />
       </div>
       <Form />
     </div>

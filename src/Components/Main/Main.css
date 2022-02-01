@@ -2,6 +2,7 @@
   margin-top: 25px;
   text-align: center;
 }
+
 .title,
 .subtitle {
   color: white;
@@ -9,10 +10,30 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .subtitle {
   position: absolute;
-  left: 807px;
+  left: 1009px;
   top: 69px;
   font-size: 23px;
   margin-bottom: 12px;
+}
+
+.Main {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 82.67%, rgba(0, 0, 0, 0.2) 100%),
+    url("../../img/BackgroundGroup.png");
+  mix-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  height: 100vh;
+
+  
 }

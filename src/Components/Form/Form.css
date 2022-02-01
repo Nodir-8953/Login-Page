@@ -8,14 +8,11 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 42px 78px;
-  position: absolute;
-  left: 457px;
-  top: 124px;
   width: 453px;
   height: 413px;
   background: rgba(63, 99, 142, 0.38);
-  /* background-blend-mode: overlay; */
-  backdrop-filter: blur(70px);
+  background-blend-mode: overlay;
+  backdrop-filter: blur(2px);
 }
 .line1,
 .line11 {
@@ -109,6 +106,7 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 12px;
+  cursor: pointer
 }
 .form-title-register {
   font-family: handel;
@@ -116,12 +114,10 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height */
-
   display: flex;
   align-items: flex-end;
   letter-spacing: 0.06em;
-
+  cursor: pointer;
   color: rgba(252, 249, 253, 0.49);
 
   mix-blend-mode: normal;
@@ -142,6 +138,7 @@
   padding: 15px 30px;
   width: 362px;
   height: 26px;
+  
 }
 .form-input input[value] {
   font-family: Poppins;
@@ -150,4 +147,7 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.15px;
+}
+.form-control{
+  font-family: Helvetica, 'FontAwesome', sans-serif;
 }

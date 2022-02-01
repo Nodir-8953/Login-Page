@@ -1,6 +1,9 @@
 import React from "react";
+import { FaBeer } from 'react-icons/fa';
+import { Gi3DStairs } from "react-icons/gi";
 import "./Form.css";
 function Form() {
+  var emka = <Gi3DStairs />;
   return (
     <div className="form">
       <div className="line1">
@@ -24,8 +27,11 @@ function Form() {
           type="email"
           name="email"
           className="form-control"
-          value="agro@gmail.com"
+          // value="agro@gmail.com"
+          placeholder={emka}
+          
         />
+        
         <br />
         <input type="password" name="password" className="form-control" />
       </div>
